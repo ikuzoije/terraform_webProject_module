@@ -87,7 +87,7 @@ variable "tags" {
 variable "key_pair" {
   description = "SSH Key pair name to ingest into EC2"
   type        = string
-  default     = "Terraform_main_key"
+  default     = "Terraform_main_key" // Change default to the key_pair available to be used 
   sensitive   = true
 }
 
